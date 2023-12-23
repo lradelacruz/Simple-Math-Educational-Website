@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<title>About</title>
+		<link rel="stylesheet" href="style.css">
+		<script>
+		var points = 0;
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+function checkresult(){
+	document.getElementById("score")=points;
+}
+</script>
+	</head>
+	<body>
+	<div class="topnav">
+		<a href="MATH For Kids.html">HOME</a>
+		<a href="about.html">ABOUT</a>
+		<a href="service.html">SERVICES</a>
+		<a href="contact.html">CONTACT</a>
+		<a href="#menu" style="float:right">MENU</a>
+	</div>
+	<div class="header">
+		<h1 style = "color:white">MATHEMATICS</h1>
+			<p style = "color:white">Math Can Be Fun!</p>
+	</div>
+<br>
+<div class="row">
+	<div class="column left1">
+						<b><i>Topics</i></b>
+						<br><br>
+						<a href="math.html" id="#math">What is Mathematics?</a>
+						<br>
+						<a href="math.html" id="#add">Addition</a>
+						<br>
+						<a href="math.html" id="#subtract">Subtraction</a>
+						<br>
+						<a href="math.html" id="#multiply">Multiplication</a>
+						<br>
+						<a href="math.html" id="#divide">Division</a>
+						<br>
+						</div>
+	<div class="column middle1">
+		<h1 id="#math">What is Mathematics?</h1>
+			<p>Mathematics is the discipline that studies the logic of form, number, and arrangement. 
+			Math is present in everything we do. It is the foundation for everything in our everyday lives, 
+			including mobile devices, ancient and modern architecture, art, money, engineering, and even sports.
+		<br>
+			Mathematical exploration has always been at the core of all human societies. 
+			Mathematical demands emerged as a result of societal desires. 
+			Math was used by primitive tribes to measure the angle of the sun and the mechanics of shooting. 
+			The greater the complexity of a society, the greater the complexity of its mathematical requirements.</p>
+			<br>
+			<center><img src="math.png" width="400px" height="300"/></center>
+			<br>
+			
+		<h2 id="#add">Addition</h2>
+			<p>The process or skill of calculating the total of two or more numbers or amounts.
+		<br>
+			The addition is taking two or more numbers and adding them together, that is, it is the total sum of 2 or more numbers.
+		</p>
+			
+			<br>
+			<center><img src="add.png" width="400px" height="300"/></center>
+			<br>
+			
+		<h3 id="#subtract">Subtraction</h3>
+			<p> The process of taking a matrix, vector, or other quantity away from another under specific rules to obtain the difference.
+		<br>
+			To subtract means to take away from a group or a number of things. 
+		<br>
+			When we subtract, the number of things in the group reduce or become less.
+		</p>
+			<br>
+			<center><img src="subtract.png" width="400px" height="300"/></center>
+			<br>
+			
+		<h4 id="#multiply">Multiplication</h4>
+			<p> one of the four basic operations of arithmetic, gives the result of combining groups of equal sizes.
+		<br>
+			To multiply means to add equal groups. When we multiply, the number of things in the group increases.
+		</p>
+			<br>
+			<center><img src="multiply.jpg" width="400px" height="300"/></center>
+			<br>
+			
+		<h4 id="#divide">Quotient</h4>
+			<p> method of distributing a group of things into equal parts. It is one of the four basic operations of arithmetic, which gives a fair result of sharing. 
+			<br>
+			<center><img src="divide.png" width="400px" height="300"/></center>
+			<br>
+					<button type="button" onclick="openForm()">Take the Basic Operations Quiz</button>
+	</div>
+	</div>
+		<div class="form-popup" id="myForm">
+		  <form action="/action_page.php" class="form-container">
+			<h1 class="header" style="color:white;text-shadow: 2px 2px black">Basic Operations Quiz</h1>
+
+			<label for="item1"><b>5 + 5</b></label>
+			<input type="text" id="input1" placeholder="Enter Answer" name="item1" required>
+			<br>
+
+			<label for="item2"><b>3 x 3</b></label>
+			<input type="text" id="input1" placeholder="Enter Answer" name="item2" required>
+			<br>
+			<label for="item3"><b>10 / 2</b></label>
+			<input type="text" id="input1" placeholder="Enter Answer" name="item3" required>
+			<br>
+			<label for="item4"><b>12 - 2</b></label>
+			<input type="text" id="input1" placeholder="Enter Answer" name="item4" required>
+			<br>
+			<p id="score"></p>
+			<button type="button" class="btn2" onclick="checkresult()">Check Answers</button>
+			<button type="button" class="btn2 cancel" onclick="closeForm()">Close</button>
+		  </form>
+		</div>
+	</body>
+</html>

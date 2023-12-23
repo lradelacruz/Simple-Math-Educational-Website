@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Contact</title>
+		<link rel="stylesheet" href="contactstyle.css">
+		<style>
+		.topnav {
+  overflow: hidden;
+  background:linear-gradient(to bottom, #ffcc00 0%, #ff9900 100%);
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+		</style>
+	</head>
+	<body>
+	<div class="topnav">
+		<a href="MATH For Kids.html">HOME</a>
+		<a href="about.html">ABOUT</a>
+		<a href="service.html">SERVICES</a>
+		<a href="contact.html">CONTACT</a>
+		<a href="#menu" style="float:right">MENU</a>
+	</div>
+
+	<div class ="Contact-Title">
+    <h1>Hello!</h1>
+	<br>
+	<h2>We are always ready to serve you!</h2>
+	</div>
+
+	<div class="Contact-Form">
+    <form id="Contact-Form" method="post" action="contact.php">
+	<input name="name" type="text" class="Form-Control" placeholder="Your Name" required>
+	<br>
+	<input name="email" type="email" class="Form-Control" placeholder="Your Email" required>
+	<br>
+	<textarea name="message" class="Form-Control" placeholder="Message" row="4" required></textarea>
+	<br>
+	<input type="submit" class="Form Control Submit" value="Send Message">
+	
+	</form>
+</div>	
+</body>
+</html>

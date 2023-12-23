@@ -1,0 +1,61 @@
+body{
+     margin: 0;
+	 padding: 0;
+	 text-align: center;
+	 background-image: url('background.png');
+	 background-size: cover;
+	 background-position: center;
+	 font-family: sans-serif;
+}
+
+.Contact-Title
+{
+     margin-top: 100px;
+     color: black;
+     text-transform: uppercase;
+     transition: all 4s ease-in-out;
+}
+.Contact-Title h1{
+     font-size: 32px;
+     line-height: 10px;
+}
+.Contact-Title h2
+{
+     font-size: 16px;
+}	 
+Form
+{
+     margin-top: 50px;
+	 transition: all 4s ease-in-out;
+}
+.Form-Control
+{
+     width: 600px;
+	 background: transparent;
+	 border: none;
+	 outline: none;
+	 border-bottom: 1px solid gray;
+	 color: #fff
+	 font-size: 18px;
+	 margin-bottom: 16px;
+}
+Input
+{
+     height: 45px;
+}
+Form.submit
+{
+     background: #ff5722;
+	 border-color: transparent;
+	 color: #fff;
+	 font-size: 20px;
+	 font-weight: bold;
+	 letter-spacing: 2px;
+	 height: 50px;
+	 margin-top: 20px;
+}
+Form. submit: hover
+{
+     background-color: linear-gradient(to bottom, #ffcc00 0%, #ff9900 100%);
+	 cursor: pointer;
+}
